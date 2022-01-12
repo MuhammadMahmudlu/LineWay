@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+aside{
+    width: 85%;
+    min-height: 90vh;
+    margin: 50px auto;
+    background-color: #501818;
+    
+}
+.boxs{
+    width: 70%;
+ height: 50vh;
+    background-color: #8d8585;
+    margin: 20px auto;
+  
+    
+}
+aside .boxs, p{
+    overflow: auto;
+}

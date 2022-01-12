@@ -1,0 +1,67 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+flex-direction: row;    
+
+
+
+}
+.boxs{
+    width: 90%;
+    min-height: 100vh;
+    background-color: darkgray;
+    display: flex;
+
+    margin: auto;
+
+
+}
+
+section .box1{
+    width: 500px;
+    height: 200px;
+    background-color: darkblue;
+    
+  
+}
+
+section .box2{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(1, 158, 67);
+   
+
+
+    
+}
+section .box3{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(158, 1, 80);
+   
+
+}
+section .box4{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(179, 97, 5);
+   
+
+}
+section .box4 div{
+    width: 250px;
+    height: 200px;
+    background-color: red;
+}
