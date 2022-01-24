@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #eee3ee ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    border-radius: 5px 5px;
+    margin-top: 35px;
+
+}
+.logo h1, span{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.logo span{
+    color: black;
+}
+.logo h1{
+    color:darkred
+}
+nav{
+    width: 50%;
+    height: 200px;
+    background-color: burlywood;
+    border-radius: 15% 55%;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 27px;
+}
+nav ul li{
+    list-style: none;
+    padding-top: 35px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+ 
+
+}
+nav ul li a:hover{
+    font-size: 30px;
+    color: dodgerblue;
+    transition: 0.1s ease-in;
+    border-bottom:  5px solid red;
+}
+.btn{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.btn button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    
+}
+.btn button:hover{
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: gold;
+    background-color: rgb(63, 11, 37);
+    border-radius: 10%;
+    transition: 1s ease-out;
+
+}
